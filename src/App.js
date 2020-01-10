@@ -8,10 +8,11 @@ import Default from './components/Default'
 import ProductDetails from './components/ProductDetails'
 import Account from './components/Account'
 
+
 export default class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment>       
         <NavbarLayout></NavbarLayout>
         <Switch>
           <Route exact path="/" component={ProductList}></Route>

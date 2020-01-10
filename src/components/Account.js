@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 export default class Account extends Component {
   render() {
     return (
-      <div>
-        Hello from Account
-      </div>
+      <div>Hello from account</div>
     )
   }
 }
